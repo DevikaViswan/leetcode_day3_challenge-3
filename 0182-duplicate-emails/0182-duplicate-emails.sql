@@ -6,3 +6,4 @@ FROM (
     GROUP BY email
 ) AS EmailCount
 WHERE num > 1;
+
